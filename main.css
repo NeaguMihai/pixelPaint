@@ -1,0 +1,57 @@
+#tableContainer{
+    position: absolute;
+    left: 0;
+    padding: 0px;
+    top: 0;
+
+
+}
+.rows{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    left: 0;
+    top: 0;
+
+    height: 15px;
+}
+.collum{
+position: relative;
+display: inline-block;
+margin: 0px;
+left: 0px;
+top: 0px;
+border: 0.5px solid black;
+background-color: white;
+width: 15px;
+height: 15px;
+}
+#colorWrap{
+    position: absolute;
+    float: right;
+    top: 50%;
+    right: 0px;
+    margin: 0;
+    padding: 0px;
+}
+.colorPicker{
+    position: relative;
+    display: flex;
+    height: 30px;
+    width: 30px;
+    margin: 0px;
+    border: 1px solid black;
+
+}
+#cp1{
+    background-color: black;
+}
+#cp2{
+    background-color: blue;
+}
+#cp3{
+    background-color: yellow;
+}
+#cp4{
+    background-color: white;
+}
