@@ -30,11 +30,16 @@ function createColl(cNumber, index){
     window.addEventListener('mousedown', function(){
         mousedown=true;
     });
+
     window.addEventListener('mouseup', function(){
         mousedown=false;
     });
     for( var i=0, len=coloane.length;i<len;i++){
         coloane[i].addEventListener('mouseover', function(){
+            // console.log(this);
+            this.addEventListener('click',function(){
+                this.style.backgroundColor = atr.value;
+            });
             if(mousedown){
                 this.style.backgroundColor = atr.value;
             }
